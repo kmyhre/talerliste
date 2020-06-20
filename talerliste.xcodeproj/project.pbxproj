@@ -14,26 +14,9 @@
 		937241FF249EB5B1004C30B4 /* talerliste.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 937241FD249EB5B1004C30B4 /* talerliste.xcdatamodeld */; };
 		93724201249EB5B1004C30B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93724200249EB5B1004C30B4 /* Assets.xcassets */; };
 		93724204249EB5B1004C30B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93724202249EB5B1004C30B4 /* LaunchScreen.storyboard */; };
-		9372420F249EB5B1004C30B4 /* talerlisteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9372420E249EB5B1004C30B4 /* talerlisteTests.swift */; };
-		9372421A249EB5B1004C30B4 /* talerlisteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93724219249EB5B1004C30B4 /* talerlisteUITests.swift */; };
+		93724228249EB5B9004C30B4 /* fetchJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93724227249EB5B9004C30B4 /* fetchJSON.swift */; };
+		9372422A249EB5C1004C30B4 /* MetaTalerliste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93724229249EB5C1004C30B4 /* MetaTalerliste.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9372420B249EB5B1004C30B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 937241E9249EB5B0004C30B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 937241F0249EB5B1004C30B4;
-			remoteInfo = talerliste;
-		};
-		93724216249EB5B1004C30B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 937241E9249EB5B0004C30B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 937241F0249EB5B1004C30B4;
-			remoteInfo = talerliste;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		937241F1249EB5B1004C30B4 /* talerliste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = talerliste.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,30 +28,12 @@
 		93724200249EB5B1004C30B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93724203249EB5B1004C30B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93724205249EB5B1004C30B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9372420A249EB5B1004C30B4 /* talerlisteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = talerlisteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9372420E249EB5B1004C30B4 /* talerlisteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talerlisteTests.swift; sourceTree = "<group>"; };
-		93724210249EB5B1004C30B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93724215249EB5B1004C30B4 /* talerlisteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = talerlisteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93724219249EB5B1004C30B4 /* talerlisteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talerlisteUITests.swift; sourceTree = "<group>"; };
-		9372421B249EB5B1004C30B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93724227249EB5B9004C30B4 /* fetchJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fetchJSON.swift; sourceTree = "<group>"; };
+		93724229249EB5C1004C30B4 /* MetaTalerliste.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaTalerliste.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		937241EE249EB5B1004C30B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93724207249EB5B1004C30B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93724212249EB5B1004C30B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				937241F3249EB5B1004C30B4 /* talerliste */,
-				9372420D249EB5B1004C30B4 /* talerlisteTests */,
-				93724218249EB5B1004C30B4 /* talerlisteUITests */,
 				937241F2249EB5B1004C30B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				937241F1249EB5B1004C30B4 /* talerliste.app */,
-				9372420A249EB5B1004C30B4 /* talerlisteTests.xctest */,
-				93724215249EB5B1004C30B4 /* talerlisteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,28 +68,12 @@
 				937241FA249EB5B1004C30B4 /* Main.storyboard */,
 				93724200249EB5B1004C30B4 /* Assets.xcassets */,
 				93724202249EB5B1004C30B4 /* LaunchScreen.storyboard */,
+				93724227249EB5B9004C30B4 /* fetchJSON.swift */,
+				93724229249EB5C1004C30B4 /* MetaTalerliste.swift */,
 				93724205249EB5B1004C30B4 /* Info.plist */,
 				937241FD249EB5B1004C30B4 /* talerliste.xcdatamodeld */,
 			);
 			path = talerliste;
-			sourceTree = "<group>";
-		};
-		9372420D249EB5B1004C30B4 /* talerlisteTests */ = {
-			isa = PBXGroup;
-			children = (
-				9372420E249EB5B1004C30B4 /* talerlisteTests.swift */,
-				93724210249EB5B1004C30B4 /* Info.plist */,
-			);
-			path = talerlisteTests;
-			sourceTree = "<group>";
-		};
-		93724218249EB5B1004C30B4 /* talerlisteUITests */ = {
-			isa = PBXGroup;
-			children = (
-				93724219249EB5B1004C30B4 /* talerlisteUITests.swift */,
-				9372421B249EB5B1004C30B4 /* Info.plist */,
-			);
-			path = talerlisteUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,42 +96,6 @@
 			productReference = 937241F1249EB5B1004C30B4 /* talerliste.app */;
 			productType = "com.apple.product-type.application";
 		};
-		93724209249EB5B1004C30B4 /* talerlisteTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93724221249EB5B1004C30B4 /* Build configuration list for PBXNativeTarget "talerlisteTests" */;
-			buildPhases = (
-				93724206249EB5B1004C30B4 /* Sources */,
-				93724207249EB5B1004C30B4 /* Frameworks */,
-				93724208249EB5B1004C30B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9372420C249EB5B1004C30B4 /* PBXTargetDependency */,
-			);
-			name = talerlisteTests;
-			productName = talerlisteTests;
-			productReference = 9372420A249EB5B1004C30B4 /* talerlisteTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		93724214249EB5B1004C30B4 /* talerlisteUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93724224249EB5B1004C30B4 /* Build configuration list for PBXNativeTarget "talerlisteUITests" */;
-			buildPhases = (
-				93724211249EB5B1004C30B4 /* Sources */,
-				93724212249EB5B1004C30B4 /* Frameworks */,
-				93724213249EB5B1004C30B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				93724217249EB5B1004C30B4 /* PBXTargetDependency */,
-			);
-			name = talerlisteUITests;
-			productName = talerlisteUITests;
-			productReference = 93724215249EB5B1004C30B4 /* talerlisteUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,14 +108,6 @@
 				TargetAttributes = {
 					937241F0249EB5B1004C30B4 = {
 						CreatedOnToolsVersion = 11.5;
-					};
-					93724209249EB5B1004C30B4 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 937241F0249EB5B1004C30B4;
-					};
-					93724214249EB5B1004C30B4 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 937241F0249EB5B1004C30B4;
 					};
 				};
 			};
@@ -224,8 +125,6 @@
 			projectRoot = "";
 			targets = (
 				937241F0249EB5B1004C30B4 /* talerliste */,
-				93724209249EB5B1004C30B4 /* talerlisteTests */,
-				93724214249EB5B1004C30B4 /* talerlisteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,20 +140,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93724208249EB5B1004C30B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93724213249EB5B1004C30B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -264,41 +149,14 @@
 			files = (
 				937241FF249EB5B1004C30B4 /* talerliste.xcdatamodeld in Sources */,
 				937241F9249EB5B1004C30B4 /* ViewController.swift in Sources */,
+				93724228249EB5B9004C30B4 /* fetchJSON.swift in Sources */,
+				9372422A249EB5C1004C30B4 /* MetaTalerliste.swift in Sources */,
 				937241F5249EB5B1004C30B4 /* AppDelegate.swift in Sources */,
 				937241F7249EB5B1004C30B4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93724206249EB5B1004C30B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9372420F249EB5B1004C30B4 /* talerlisteTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93724211249EB5B1004C30B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9372421A249EB5B1004C30B4 /* talerlisteUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9372420C249EB5B1004C30B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 937241F0249EB5B1004C30B4 /* talerliste */;
-			targetProxy = 9372420B249EB5B1004C30B4 /* PBXContainerItemProxy */;
-		};
-		93724217249EB5B1004C30B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 937241F0249EB5B1004C30B4 /* talerliste */;
-			targetProxy = 93724216249EB5B1004C30B4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		937241FA249EB5B1004C30B4 /* Main.storyboard */ = {
@@ -470,90 +328,6 @@
 			};
 			name = Release;
 		};
-		93724222249EB5B1004C30B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 97M86CPV88;
-				INFOPLIST_FILE = talerlisteTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kmyhre.talerlisteTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/talerliste.app/talerliste";
-			};
-			name = Debug;
-		};
-		93724223249EB5B1004C30B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 97M86CPV88;
-				INFOPLIST_FILE = talerlisteTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kmyhre.talerlisteTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/talerliste.app/talerliste";
-			};
-			name = Release;
-		};
-		93724225249EB5B1004C30B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 97M86CPV88;
-				INFOPLIST_FILE = talerlisteUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kmyhre.talerlisteUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = talerliste;
-			};
-			name = Debug;
-		};
-		93724226249EB5B1004C30B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 97M86CPV88;
-				INFOPLIST_FILE = talerlisteUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kmyhre.talerlisteUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = talerliste;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,24 +345,6 @@
 			buildConfigurations = (
 				9372421F249EB5B1004C30B4 /* Debug */,
 				93724220249EB5B1004C30B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93724221249EB5B1004C30B4 /* Build configuration list for PBXNativeTarget "talerlisteTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93724222249EB5B1004C30B4 /* Debug */,
-				93724223249EB5B1004C30B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93724224249EB5B1004C30B4 /* Build configuration list for PBXNativeTarget "talerlisteUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93724225249EB5B1004C30B4 /* Debug */,
-				93724226249EB5B1004C30B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
