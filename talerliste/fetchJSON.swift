@@ -8,7 +8,7 @@
 
 import Foundation
 
-func fetchJSON(wantedvariable: String?) {
+func fetchJSON() {
 
 
     // Create URL
@@ -25,7 +25,26 @@ func fetchJSON(wantedvariable: String?) {
             }
             
             if let safeData = data {
-                parseJSON(talerlistedata: safeData)
+                //code goes here
+                
+                let decoder = JSONDecoder()
+                do {
+                    let decodedData = try decoder.decode(MetaTalerliste.self, from: safeData)
+                    let moteID = decodedData.mote_id
+                    let moteAktivitetStatusTekst = decodedData.mote_aktivitet_status_tekst
+                    print("Møte-ID er \(moteID). Status for møtet er «\(moteAktivitetStatusTekst)».")
+                    
+                    
+                    // print(decodedData.mote_id)
+                } catch {
+                    print(error)
+                }
+
+                
+                
+                
+                // line below for testing
+                // parseJSON(talerlistedata: safeData)
             }
         }
         
@@ -35,12 +54,22 @@ func fetchJSON(wantedvariable: String?) {
 }
 
 
-func parseJSON(talerlistedata: Data) {
+
+/*
+ 
+// Old code now. Reuse if you need to parse the JSON outside of fetching it
+ 
+func parseJSON() {
     let decoder = JSONDecoder()
     do {
-        let decodedData = try decoder.decode(MetaTalerliste.self, from: talerlistedata)
+        let decodedData = try decoder.decode(MetaTalerliste.self, from: safeData)
+        let moteID = decodedData.mote_id
+        let moteAktivitetStatus = decodedData.mote_aktivitet_status
+        
+        
         print(decodedData.mote_id)
     } catch {
         print(error)
     }
 }
+*/
