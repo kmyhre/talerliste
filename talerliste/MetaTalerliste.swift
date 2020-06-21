@@ -11,7 +11,22 @@ import Foundation
 
 struct MetaTalerliste: Decodable {
     let mote_id: Int
+    
+    // Oversett statuskode for møtet til string
     let mote_aktivitet_status: Int
+    var mote_aktivitet_status_tekst: String {
+        switch mote_aktivitet_status {
+        case 0:
+            return "Ikke startet"
+        case 1:
+            return "Aktiv"
+        case 2:
+            return "Pause"
+        default:
+            return "Ukjent statuskode"
+        }
+    }
+    
     let mote_start_dato_tid: String
     
     struct Taleinformasjon_liste: Decodable {
