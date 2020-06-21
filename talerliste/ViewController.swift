@@ -13,11 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        møteStatus.textAlignment = .center
+        møteStatus.text = "Det fungerte ikke."
     }
 
     @IBOutlet weak var møteStatus: UILabel!
     
     @IBAction func refresh_møteStatus(_ sender: Any) {
+        fetchJSON()
     }
 }
 
